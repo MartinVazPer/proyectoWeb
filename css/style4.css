@@ -1,0 +1,200 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .header img {
+    width: 80px;
+    height: auto;
+  }
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .product img {
+    width: 300px;
+    height: auto;
+  }
+  .product h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 20px;
+  }
+  
+  .product p {
+    font-size: 20px;
+    color: #000;
+    margin-top: 10px;
+  }
+  
+  /* Estilos del precio */
+  .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+.btn{
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute; 
+    top: 155px; 
+    left: 100px;
+    background-color: #f8f8f8; /* Cambia el color del botón a naranja (#FFA500) */
+    color: #140101; /* Cambia el color del texto a blanco (#ffffff) */
+    padding: 10px 20px; /* Añade relleno al botón para ajustar su tamaño */
+    border: none; /* Elimina el borde del botón (opcional) */
+}
+.navbar-brand-image{
+    width: 80px; /* Establece el ancho deseado, por ejemplo, 200 píxeles */
+    height: auto;
+
+}
+.imagen{
+    position: absolute; 
+    top: 210px; 
+    left: 80px;
+    height: 420px;
+    width: 600px;
+    
+}
+.aretes h1{
+    position: absolute; 
+    top: 210px; 
+    left: 700px;
+    font-size: 40px;
+}
+.dinero p{
+    position: absolute; 
+    top: 250px; 
+    left: 700px;
+    font-size: 30px;
+}
+.impuesto p{
+    position: absolute; 
+    top: 300px; 
+    left: 700px;
+    font-size: 30px;
+}
+.cantidad p{
+    position: absolute; 
+    top: 380px; 
+    left: 750px;
+    font-size: 30px;
+    color:#000;
+
+}
+.linea-horizontal {
+    border-top: 1px solid #000; /* Grosor, tipo y color de la línea */
+    width: 590px;
+    position: absolute; 
+    top: 370px; 
+    left: 710px;
+}
+.linea-horizontal2 {
+    border-top: 1px solid #000; /* Grosor, tipo y color de la línea */
+    width: 590px;
+    position: absolute; 
+    top: 640px; 
+    left: 710px;
+}
+.calculadora{
+    position: absolute; 
+    top: 420px; 
+    left: 800px;
+}
+/* Estilo para el párrafo */
+.resultado {
+    font-size: 40px; /* Tamaño de fuente más grande */
+    background-color: transparent;
+    position: absolute; 
+    top: 420px; 
+    left: 800px;
+    color:#000;
+   
+
+}
+
+/* Estilo para los botones */
+.boton {
+    font-size: 40px; /* Tamaño de fuente */
+    position: absolute; 
+    top: 420px; 
+    left: 830px;
+    border: none; /* Elimina el borde del botón */
+    background-color: transparent;
+    
+}
+.boton1 {
+    font-size: 45px; /* Tamaño de fuente */
+    position: absolute; 
+    top: 414px; 
+    left: 768px;
+    border: none; /* Elimina el borde del botón */
+    background-color: transparent;
+}
+.Agregar a{
+    position: absolute; 
+    top: 480px; 
+    left: 700px;
+    font-size: 35px;
+    padding: 5px; /* Añade 10 píxeles de espacio alrededor del contenido */
+    background-color: #636161;
+    color:#f8f8f8;
+    font-weight: bold;
+    width: 540px; /* Establece el ancho del cuadro*/
+    text-align: center;
+}
+.comprar a{
+    position: absolute; 
+    top: 560px; 
+    left: 700px;
+    font-size: 35px;
+    padding: 5px; /* Añade 10 píxeles de espacio alrededor del contenido */
+    background-color: #080808;
+    color:#f8f8f8;
+    font-weight: bold;
+    width: 540px; /* Establece el ancho del cuadro*/
+    text-align: center;
+}
+.descripcion p{
+    position: absolute; 
+    top: 650px; 
+    left: 100px;
+    color: #000;
+    font-size: 30px;
+}
+.descripcion1 p{
+    position: absolute; 
+    top: 700px; 
+    left: 100px;
+    width: 1000px; /* Establece el ancho de la tabla en 300 píxeles */
+    height: 200px;
+    color: #000;
+    font-size: 20px;
+}
+.lista{
+    position: absolute; 
+    top: 850px; 
+    left: 100px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+

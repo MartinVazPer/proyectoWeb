@@ -1,0 +1,93 @@
+.navbar-brand-image{
+    width: 80px; /* Establece el ancho deseado, por ejemplo, 200 píxeles */
+    height: auto;
+
+}
+.imagen1{
+    position: absolute; 
+    top: 155px; 
+    left: 110px; 
+    height: 450px;
+    width: 440px;
+}
+.ambar1 h1{
+    position: absolute; 
+    top: 150px; 
+    left: 600px; 
+    font-size: 25px;
+}
+.tabla1{
+    position: absolute; 
+    top: 200px; 
+    left: 540px; 
+    font-size: 25px;
+    width: 52%;
+    height: 100%;
+    text-align: justify;
+}
+.imagen2{
+    position: absolute; 
+    top: 680px; 
+    left: 800px; 
+    height: 500px;
+    width: 440px;
+}
+.ambar2 h1{
+    position: absolute; 
+    top: 650px; 
+    left: 200px; 
+    font-size: 25px;
+}
+.tabla2{
+    position: absolute; 
+    top: 700px; 
+    left: 80px; 
+    font-size: 25px;
+    width: 52%;
+    height: 100%;
+    text-align: justify;
+}
+.imagen3{
+    position: absolute; 
+    top: 1250px; 
+    left: 105px; 
+    height: 500px;
+    width: 440px;
+}
+.ambar3 h1{
+    position: absolute; 
+    top: 1250px; 
+    left: 600px; 
+    font-size: 25px;
+}
+.tabla3{
+    position: absolute; 
+    top: 1300px; 
+    left: 545px; 
+    font-size: 25px;
+    width: 52%;
+    height: 100%;
+    text-align: justify;
+}
+.imagen4{
+    position: absolute; 
+    top: 1800px; 
+    left: 800px; 
+    height: 600px;
+    width: 440px;
+}
+.ambar4 h1{
+    position: absolute; 
+    top: 1800px; 
+    left: 110px; 
+    font-size: 25px;
+}
+.tabla4{
+    position: absolute; 
+    top: 1850px; 
+    left: 75px; 
+    font-size: 25px;
+    width: 52%;
+    height: 100%;
+    text-align: justify;
+}

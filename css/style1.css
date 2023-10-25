@@ -1,0 +1,47 @@
+.navbar-brand-image{
+    width: 80px; /* Establece el ancho deseado*/
+    height: auto;
+}
+.btn-dark{
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute; 
+    top: 155px; 
+    left: 100px;
+    background-color: #f8f8f8; /* Cambia el color del botón */
+    color: #140101; /* Cambia el color del texto */
+    padding: 10px 20px; /* Añade relleno al botón para ajustar su tamaño */
+    border: none; /* Elimina el borde del botón (opcional) */
+}
+h1 {
+    font-size: 50px; 
+    text-align: center;  
+    margin-top: 150px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.product-container {
+    display: flex;
+    justify-content: center;
+}
+.product-card {
+    margin: 70px;
+    padding: 0px;
+    width: 250px;
+}
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+.btn-primary {
+    background-color:  orange;
+    border-color:  orange;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    padding: 5px;
+    width: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 30px;
+  }

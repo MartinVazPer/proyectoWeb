@@ -1,0 +1,8 @@
+body{
+    background-color: burlywood;
+}
+.navbar-brand-image{
+    width: 80px; /* Establece el ancho deseado, por ejemplo, 200 píxeles */
+    height: auto;
+
+}

@@ -1,0 +1,100 @@
+.navbar-brand-image{
+    width: 80px; /* Establece el ancho deseado, por ejemplo, 200 píxeles */
+    height: auto;
+}
+.contacto h1{
+    position: absolute; 
+    top: 140px; 
+    left: 540px;
+    font-size: 50px;
+}
+.imagen-personalizada {
+    position: absolute; /* Esto permite un posicionamiento absoluto */
+    top: 240px; /* Cambia esta valor según tu preferencia para la posición vertical */
+    left: 100px; /* Cambia esta valor según tu preferencia para la posición horizontal */
+    width: 500px; /* Establece el ancho de la imagen en 200 píxeles */
+    height: 300px; /* Establece la altura de la imagen en 150 píxeles */
+
+}
+.ubicanos{
+    position: absolute; 
+    top: 240px; 
+    left: 650px; 
+}
+.calle{
+    position: absolute; 
+    top: 290px; 
+    left: 650px; 
+}
+.horario{
+    position: absolute; 
+    top: 350px; 
+    left: 650px; 
+}
+.lunes{
+    position: absolute; 
+    top: 390px; 
+    left: 650px; 
+}
+.telefono{
+    position: absolute; 
+    top: 450px; 
+    left: 650px; 
+}
+.tel{
+    position: absolute; 
+    top: 490px; 
+    left: 650px; 
+}
+h2{
+    font-size: 40px; 
+    top: 600px; 
+    left: 430px; 
+    position: absolute; 
+}
+.nombre{
+    position: absolute; 
+    top: 700px; 
+    left: 100px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.fecha{
+    position: absolute; 
+    top: 700px; 
+    left: 600px;
+    font-weight: bold;
+    font-size: 20px; 
+}
+.mensaje{
+    position: absolute; 
+    top: 800px; 
+    left: 100px;
+    font-weight: bold;
+    font-size: 20px; 
+}
+/* Establecer estilos para los elementos del formulario */
+.form-input {
+    width: 450px; /* Establecer el ancho de los campos de entrada de texto */
+    height: 40px; /* Establecer la altura de los campos de entrada de texto */
+}
+
+.form-textarea {
+    width: 950px; /* Establecer el ancho del área de texto */
+    height: 150px; /* Establecer la altura del área de texto */
+}
+
+.form-submit {
+    width: 150px; /* Establecer el ancho del botón de envío */
+    height: 50px; /* Establecer la altura del botón de envío */
+    position: absolute; 
+    top: 790px; 
+    left: 1100px;
+    font-weight: bold;
+    font-size: 20px; 
+    background-color: orange;
+    border: orange;
+    border-radius: 35px;
+    color:beige;
+}
+

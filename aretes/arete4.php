@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="../css/tooplate-barista.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/style4.css">
+
+
+</head>
+
+<body>
+    <main>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="../index.php">
+                    <img src="../img/logo.png" class="navbar-brand-image img-fluid" alt="Barista Cafe Template">
+                    Inicio
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="../productos.php">Productos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="../contacto.php">Contacto</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="../acercade.php">Acerca de </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_4">Iniciar sesion</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_5">Compras</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </main>
+    <a href="../aretes/Aretes.php" class="btn btn-dark">REGRESAR</a>
+    <img src="../img/aretes/Arete4.png" class="imagen">
+    <div class="aretes">
+        <h1>ARETES ÁMBAR GOTAS</h1>
+    </div>
+    <div class="dinero">
+        <p>$ 7,000.00</p>
+    </div>
+    <div class="impuesto">
+        <p>Impuesto incluido.</p>
+    </div>
+    <div class="cantidad">
+        <p>Cantidad</p>
+    </div>
+    <div class="linea-horizontal"></div>
+    <div class="linea-horizontal2"></div>
+
+    <p id="resultado" class="resultado">0</p>
+    <button class="boton" onclick="sumar()">+</button>
+    <button class="boton1" onclick="restar()">-</button>
+
+
+    <script>
+    var numero = 0; // Inicializa la variable número en 0
+
+    function sumar() {
+        numero += 1; // Incrementa el número en 1
+        actualizarResultado();
+    }
+
+    function restar() {
+        numero -= 1; // Disminuye el número en 1
+        actualizarResultado();
+    }
+
+    function actualizarResultado() {
+        var resultadoElement = document.getElementById("resultado");
+        resultadoElement.textContent = numero;
+    }
+    </script>
+    <div class="Agregar">
+        <a href="">AGREGAR AL CARRITO</a>
+    </div>
+    <div class="comprar">
+        <a href="">COMPRAR AHORA</a>
+    </div>
+    <div class="descripcion">
+        <p>Descripción</p>
+    </div>
+    <div class="descripcion1">
+        <tabla>
+            <p>Establecida en 1979, Jenny Polanco cambió el rumbo de la moda en la región alentada por una noción
+                simple: vestir a las mujeres de acuerdo con el entorno en el que vivían.Fiel a la feminidad y a la
+                funcionalidad, su estilo característico evoca la elegancia caribeña y el lujo relajado que se
+                convirtieron en clásicos instantáneos.
+                Este arete de producción limitada de hasta 6 piezas, mantiene la naturaleza de sus materiales.
+                Aretes de ámbar tallado a mano en forma de corazón, con plata .925
+                Composición y Cuidados:</p>
+        </tabla>
+    </div>
+    <div class="lista">
+        <li>Elaborado con ámbar dominicano.</li>
+        <li>Pulido y tallado de forma artesanal.</li>
+        <li>Los tonos del ámbar varían.</li>
+        <li>Perlas Keshi.</li>
+        <li>Plata 925</li>
+        <li>Guarda en su empaque original para mantener en buen estado la pieza.</li>
+    </div>
+
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.sticky.js"></script>
+    <script src="../js/vegas.min.js"></script>
+    <script src="../js/custom.js"></script>
+</body>
+
+</html>
+
+

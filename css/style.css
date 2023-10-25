@@ -1,0 +1,64 @@
+.product-container {
+    background-color: white;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    width: 100%;
+    margin: 0 20px;
+  }
+  
+  /* Centrado de elementos específicos */
+  .colecciones h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 250px;
+  }
+  
+  /* Ancho máximo de las tarjetas de productos */
+  .product-card {
+    max-width: 300px;
+  }
+  
+  /* Estilos del botón "Comprar" */
+  .btn-primary {
+    background-color: yellow;
+    border-color: yellow;
+    color: rgb(0, 0, 0);
+    margin: 200px;
+    padding: 5px;
+    width: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 30px;
+  }
+  
+  /* Añadir un espacio entre el logo y el botón de navegación */
+  .navbar-brand {
+    margin-right: 20px;
+  }
+  
+  /* Añadir un espacio entre los elementos del menú de navegación */
+  .navbar-nav li {
+    margin-right: 20px;
+  }
+  
+  /* Añadir una imagen de la marca */
+  .navbar-brand {
+    background-image: url("img/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+  }
+  
+  /* Imagen de fondo */
+  body {
+    background-image: url("/img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
