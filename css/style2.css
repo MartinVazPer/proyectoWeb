@@ -1,3 +1,6 @@
+body{
+    align-self:center;
+}
 .navbar-brand-image{
     width: 80px; /* Establece el ancho deseado, por ejemplo, 200 píxeles */
     height: auto;
@@ -5,7 +8,7 @@
 .contacto h1{
     position: absolute; 
     top: 140px; 
-    left: 540px;
+    left: 850px;
     font-size: 50px;
 }
 .imagen-personalizada {

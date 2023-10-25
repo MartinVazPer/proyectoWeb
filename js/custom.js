@@ -43,3 +43,20 @@
   })(window.jQuery);
 
 
+// Agregar interacción de validación de formulario
+document.querySelector('#contact-form').addEventListener('submit', function (e) {
+  e.preventDefault(); // Evitar el envío del formulario por defecto
+  const name = document.querySelector('#name').value;
+  const email = document.querySelector('#email').value;
+  const message = document.querySelector('#message').value;
+
+  // Validar campos (puedes agregar más validaciones según tus necesidades)
+  if (name.trim() === '' || email.trim() === '' || message.trim() === '') {
+      alert('Por favor, complete todos los campos.');
+  } else {
+      // Aquí puedes enviar el formulario o realizar alguna otra acción
+      alert('Formulario enviado con éxito.');
+      // Restablecer el formulario
+      document.querySelector('#contact-form').reset();
+  }
+});
