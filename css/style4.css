@@ -24,6 +24,8 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+    margin: 1920;
+    box-sizing: border-box;
   }
   
   .product img {
@@ -78,25 +80,25 @@ body {
 .aretes h1{
     position: absolute; 
     top: 210px; 
-    left: 700px;
+    left: 1200px;
     font-size: 40px;
 }
 .dinero p{
     position: absolute; 
     top: 250px; 
-    left: 700px;
+    left: 1200px;
     font-size: 30px;
 }
 .impuesto p{
     position: absolute; 
     top: 300px; 
-    left: 700px;
+    left: 1200px;
     font-size: 30px;
 }
 .cantidad p{
     position: absolute; 
     top: 380px; 
-    left: 750px;
+    left: 1200px;
     font-size: 30px;
     color:#000;
 
@@ -106,19 +108,19 @@ body {
     width: 590px;
     position: absolute; 
     top: 370px; 
-    left: 710px;
+    left: 1200px;
 }
 .linea-horizontal2 {
     border-top: 1px solid #000; /* Grosor, tipo y color de la línea */
     width: 590px;
     position: absolute; 
     top: 640px; 
-    left: 710px;
+    left: 1200px;
 }
 .calculadora{
     position: absolute; 
     top: 420px; 
-    left: 800px;
+    left: 1200px;
 }
 /* Estilo para el párrafo */
 .resultado {
@@ -126,7 +128,7 @@ body {
     background-color: transparent;
     position: absolute; 
     top: 420px; 
-    left: 800px;
+    left: 1250px;
     color:#000;
    
 
@@ -137,7 +139,7 @@ body {
     font-size: 40px; /* Tamaño de fuente */
     position: absolute; 
     top: 420px; 
-    left: 830px;
+    left: 1300px;
     border: none; /* Elimina el borde del botón */
     background-color: transparent;
     
@@ -146,14 +148,14 @@ body {
     font-size: 45px; /* Tamaño de fuente */
     position: absolute; 
     top: 414px; 
-    left: 768px;
+    left: 1200px;
     border: none; /* Elimina el borde del botón */
     background-color: transparent;
 }
 .Agregar a{
     position: absolute; 
     top: 480px; 
-    left: 700px;
+    left: 1200px;
     font-size: 35px;
     padding: 5px; /* Añade 10 píxeles de espacio alrededor del contenido */
     background-color: #636161;
@@ -165,7 +167,7 @@ body {
 .comprar a{
     position: absolute; 
     top: 560px; 
-    left: 700px;
+    left: 1200px;
     font-size: 35px;
     padding: 5px; /* Añade 10 píxeles de espacio alrededor del contenido */
     background-color: #080808;
@@ -194,7 +196,55 @@ body {
     position: absolute; 
     top: 850px; 
     left: 100px;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
     font-size: 20px;
+    z-index: 999;
 }
+
+  /*---------------------------------------
+    SITE FOOTER              
+  -----------------------------------------*/
+  .site-footer2 {
+    background-color: var(--primary-color);
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: auto;
+  padding-bottom: auto;
+  text-align: center;
+  height: auto;
+  overflow: hidden;
+
+  }
+
+  .site-footer2 strong {
+    color: var(--white-color);
+  }
+
+  .site-footer2 p,
+  .site-footer2-link {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: var(--btn-font-size);
+  }
+
+  .site-footer2-link {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: var(--btn-font-size);
+    transition: all 0.3s;
+  }
+
+  .site-footer2-link:hover {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: underline;
+  }
+
+  .copyright-text {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: var(--menu-font-size);
+  }
+
+  .copyright-text a {
+    color: rgba(255, 200, 160, 0.75);
+  }
 
